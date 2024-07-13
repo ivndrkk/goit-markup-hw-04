@@ -296,13 +296,11 @@ header .container{
 }
 
 
-.team-member-social-link:hover{
-    background-color: #404bbf;
-}
-
+.team-member-social-link:hover,
 .team-member-social-link:focus{
     background-color: #404bbf;
 }
+
 
 .team-member-social-svg{
     fill: #f4f4fd;
@@ -478,7 +476,7 @@ footer .container{
 }
 
 .footer-social-media-list-link:hover,
-.footer-social-media-list-link:active{
+.footer-social-media-list-link:focus{
     background-color: #31d0aa;
 }
 
