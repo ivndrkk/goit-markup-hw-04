@@ -295,8 +295,12 @@ header .container{
 
 }
 
-.team-member-social-link:active,
+
 .team-member-social-link:hover{
+    background-color: #404bbf;
+}
+
+.team-member-social-link:focus{
     background-color: #404bbf;
 }
 
@@ -406,7 +410,7 @@ header .container{
     padding: 100px 0;
 }
 
-.footer-content{
+footer .container{
     display: flex;
     align-items: baseline;
 }
